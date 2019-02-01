@@ -1,14 +1,74 @@
 [
     {
         "key": 1,
-        "image": "images/36.jpg",
+        "image": "images/asc.jpg",
         "selected": false,
-        "name": "36"
+        "name": "asc"
     },
     {
         "key": 2,
         "image": "images/asckdc.jpg",
         "selected": false,
         "name": "asckdc"
+    },
+    {
+        "key": 3,
+        "image": "images/atmosphere.jpg",
+        "selected": false,
+        "name": "atmosphere"
+    },
+    {
+        "key": 4,
+        "image": "images/bvdub.jpg",
+        "selected": false,
+        "name": "bvdub"
+    },
+    {
+        "key": 5,
+        "image": "images/deepchord.jpg",
+        "selected": false,
+        "name": "deepchord"
+    },
+    {
+        "key": 6,
+        "image": "images/hauch.jpg",
+        "selected": false,
+        "name": "hauch"
+    },
+    {
+        "key": 7,
+        "image": "images/hyperlight.jpg",
+        "selected": false,
+        "name": "hyperlight"
+    },
+    {
+        "key": 8,
+        "image": "images/desolate.jpg",
+        "selected": false,
+        "name": "desolate"
+    },
+    {
+        "key": 9,
+        "image": "images/interstellar.jpg",
+        "selected": false,
+        "name": "interstellar"
+    },
+    {
+        "key": 10,
+        "image": "images/macross.jpg",
+        "selected": false,
+        "name": "macross"
+    },
+    {
+        "key": 11,
+        "image": "images/maheras.jpg",
+        "selected": false,
+        "name": "maheras"
+    },
+    {
+        "key": 12,
+        "image": "images/wanderwelle.jpg",
+        "selected": false,
+        "name": "wanderwelle"
     }
 ]

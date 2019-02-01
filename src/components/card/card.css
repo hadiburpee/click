@@ -1,0 +1,9 @@
+img{
+    max-width: 175px;
+    max-height: 175px;
+    display: flex;
+    border-color: black;
+    border: 5px;
+    padding: 5px 5px 5px 5px;
+    
+}
