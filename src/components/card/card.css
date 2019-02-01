@@ -1,6 +1,16 @@
+.cardHolder{
+    background: rgba(16, 16, 53, 0.488);
+    border-radius: 2px;
+    max-height: 185px;
+    margin: 1rem;
+    /* position: relative; */
+    max-width: 185px;
+
+}
+
 img{
-    max-width: 175px;
-    max-height: 175px;
+    width: 175px;
+    height: 175px;
     display: flex;
     border-color: black;
     border: 5px;
