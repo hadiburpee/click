@@ -10,17 +10,23 @@ import Header from './components/header/header';
 class App extends Component {
   state = {
     cards,
-    score: 0
-
+    score: 0,
+    selected: false
   }
 
   incrementScore = () => {
     this.setState( prevState => ({score: prevState.score + 1}));
+    console.log(cards);
   }
 
   resetScore = event => {
     this.setState( prevState => ({score: prevState.score - prevState.score}));
   }
+
+  changeSelected = event => {
+    this.setState( prevState => ({selected: prevState.selected = true}))
+  }
+
 
   render() {
     console.log(cards);
@@ -33,7 +39,8 @@ class App extends Component {
       {this.state.cards.map(card =>
         <Card 
         key={card.key}
-        selected={card.selected}
+        selected={this.state.selected}
+        select={this.changeSelected}
         image={card.image}
         name={card.name}
         score={this.incrementScore}
